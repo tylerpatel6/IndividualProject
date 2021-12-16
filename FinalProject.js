@@ -16,7 +16,7 @@ const config = {
       },
       title: {
         display: true,
-        text: 'Clikc on the boxes to view the graph data.'
+        text: 'Click on the boxes to view the graph data.'
       }
     }
   }
