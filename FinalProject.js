@@ -16,7 +16,7 @@ const config = {
       },
       title: {
         display: true,
-        text: 'US Labor Stats: # of Employees (in thousands)'
+        text: 'Clikc on the boxes to view the graph data.'
       }
     }
   }
