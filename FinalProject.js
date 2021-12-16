@@ -144,7 +144,7 @@ for (i = 0; i < SectorKeys.length; i++){
 let call = new XMLHttpRequest()
 call.addEventListener("load", responseHandler);
 let x = "https://api.bls.gov/publicAPI/v2/timeseries/data/CEU";
-let z = "000001?registrationkey=b5c0f803ed8b483c940df8539c6c0283";
+let z = "000001?registrationkey=insert_APIkey_here";
 call.open("GET", x + SectorKeys[i] + z);
 call.responseType = "json";
 call.send();
